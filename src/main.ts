@@ -16,13 +16,15 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faBitcoin, faWhatsapp, faYoutube, faFacebook, faTelegram } from '@fortawesome/free-brands-svg-icons'
 import { faUserSecret, faBars, faBook, faHeart, faPlus, faTrash, faUpload, faCopy,
   faPuzzlePiece, faHome, faMagnifyingGlass, faBlog, faMagnifyingGlassDollar,
-   faCircleHalfStroke, faDiamond, faFan, faRocket, } from '@fortawesome/free-solid-svg-icons'
+   faCircleHalfStroke, faDiamond, faFan, faRocket, faEnvelope,
+    faChess, faChessRook, faChessQueen, faChessBishop, faChessKnight, faChessPawn } from '@fortawesome/free-solid-svg-icons'
 
 /* add icons to the library */
 library.add(faUserSecret, faBars, faBook, faHeart, faPlus, faUpload,
    faPuzzlePiece, faHome,faBlog, faMagnifyingGlass, faTrash, faCopy, faDiamond,
     faCircleHalfStroke, faWhatsapp, faYoutube, faFacebook, faFan, faRocket,
-     faTelegram, faMagnifyingGlassDollar )
+     faTelegram, faMagnifyingGlassDollar, faEnvelope,
+     faChessRook, faChessQueen, faChessBishop, faChessKnight, faChessPawn )
 //vue use
 import { MotionPlugin } from '@vueuse/motion'
 

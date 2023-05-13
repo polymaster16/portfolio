@@ -38,7 +38,7 @@ function tog (){
     <font-awesome-icon  icon="fa-solid fa-bars"
      class="font-bold text-slate-50 dark:text-slate-900 text-4xl ml-6 lg:ml-1  mr-9 bigM" /> 
     </v-btn>   
-      <div class="text-4xl font-bold text-slate-50 dark:text-slate-900 ">Portfolio</div>
+      <div class="text-4xl font-bold text-slate-50 dark:text-slate-900 "></div>
 
       <v-spacer></v-spacer>
 

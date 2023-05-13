@@ -4,7 +4,7 @@ import { RouterView } from 'vue-router'
 </script>
 
 <template>
-  <div class= " bg-gray-800 dark:bg-emerald-100">
+  <div class= " bg-gray-800 dark:bg-blue-100">
   <RouterView />
 </div>
 </template>

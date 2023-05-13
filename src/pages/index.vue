@@ -2,6 +2,7 @@
 <script setup>
 import BasicLayout from '../layouts/basic.vue'
 import CoolTop from '@/components/CoolTop.vue';
+import BottomMediaIconstVue from '@/components/BottomMediaIconst.vue';
 import 'vue3-carousel/dist/carousel.css';
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel';
 import { Typed } from "@duskmoon/vue3-typed-js";
@@ -87,11 +88,11 @@ const options = {
 
       </div>
 
-     <div class="text-slate-100 text-4xl font-bold text-center mb-4 mt-14">
+     <div class="text-slate-100 dark:text-slate-900 text-4xl font-bold text-center mb-4 mt-14">
       About <span class="text-red-500 font-bold">Me</span>
      </div>
 
-     <p class="text-2xl text-left mx-8 mb-4 text-slate-100">
+     <p class="text-2xl text-left mx-8 mb-4 text-slate-100 dark:text-slate-900 ">
       Hello, I'm William, a software engineering student and a full-stack developer.
      <br>  <span><font-awesome-icon icon="fa-solid fa-fan" spin/></span>
      -I have a passion for building innovative and functional web applications that solve real-world problems. 
@@ -101,7 +102,7 @@ const options = {
     </p>
 
 
-    <div class="text-4xl font-bold text-center mb-7 mt-14 text-slate-100">
+    <div class="text-4xl font-bold text-center mb-7 mt-14 text-slate-100 dark:text-slate-900 ">
       My Services
      </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mx-5 ">
@@ -111,7 +112,7 @@ const options = {
         <div class="bg-black opacity-0 hover:opacity-40 h-100">
       </div>
       </v-img>
-      <div class="text-2xl text-center text-slate-100 font-bold mt-4">Mobile App Devellopment</div>-bold
+      <div class="text-2xl text-center text-slate-100 dark:text-slate-900  font-bold mt-4">Mobile App Devellopment</div>
     </div>
 
     <div>
@@ -120,7 +121,7 @@ const options = {
       <div class="bg-black opacity-0 hover:opacity-40 h-100">
       </div>
       </v-img>
-      <div class="text-2xl text-center text-slate-100 font-bold mt-4">
+      <div class="text-2xl text-center text-slate-100 dark:text-slate-900  font-bold mt-4">
         Your custom Website/ Webapp</div>
     </div>
    
@@ -130,42 +131,62 @@ const options = {
         <div class="bg-black opacity-0 hover:opacity-40 h-100">
       </div>
       </v-img>
-      <div class="text-2xl text-center text-slate-100 font-bold mt-4">
+      <div class="text-2xl text-center text-slate-100 dark:text-slate-900  font-bold mt-4">
         Others</div>
       </div>
     </div>
 
 
-      <div class="text-slate-100 text-4xl font-bold text-center mb-4 mt-14">
+      <div class="text-slate-100 dark:text-slate-900  text-4xl font-bold text-center mb-4 mt-14">
       Contact <span class="text-red-500 font-bold">Me</span> For <span class="text-red-500 font-bold">All</span>
      projects
     </div>
 
-    <div class="mx-8 bg-gray-800">
-  <v-text-field label="Your Name"
-  class="bg-slate-100 text-slate-900"/>
+<BottomMediaIconstVue/>
+    
+      <div class="text-slate-100 dark:text-slate-900 text-4xl font-bold text-center mb-4 mt-14">
+      More  <span class="text-red-500 font-bold">About</span> Me
+     </div>
 
-  <v-textarea label="Your Message" max-width="100%"
-  class="bg-slate-100 text-slate-900"/>
-          
+      <div class="text-2xl mx-6 text-slate-100 dark:text-slate-900 ">
+      <span><font-awesome-icon icon="fa-solid fa-chess-pawn" bounce/></span>
+     -In my free time, I love playing chess. It's a great way to challenge my mind and improve my critical thinking skills.
+    <v-img class="mt-4" cover src="https://assetsio.reedpopcdn.com/chess-playing-hand.jpeg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp">
+    </v-img>
+    
+     <br>  <span><font-awesome-icon icon="fa-solid fa-chess-rook" /></span>
+     -I also enjoy exploring new technologies and learning new skills to stay up-to-date with the latest trends in the industry.
+     <v-img class="mt-4" cover
+      src="https://www.gomodus.com/hubfs/Blog%20Images/Tech%20Changes%20Business.jpg">
+    </v-img>
+     <br> 
+     <span><font-awesome-icon icon="fa-solid fa-chess-queen"  /></span>
 
-      
-</div>
+     My goal is to become a skilled and well-rounded developer who can contribute to the growth of the tech industry. 
+    
+     <v-img class="mt-4" cover
+      src="https://www.creativefabrica.com/wp-content/uploads/2022/01/13/cute-couple-hiking-silhouette-graphic-Graphics-23387796-1.jpg">
+    </v-img>
+     <br> 
+    
+     <br> <span><font-awesome-icon icon="fa-solid fa-chess-knight"  /></span>
+     With my dedication, creativity, and attention to detail, I'm confident that I can bring value to any team.
+     <v-img class="mt-4" cover
+      src="https://assets.entrepreneur.com/content/3x2/2000/20151215195453-business-leader-group-front-leadership-team-professionals-businesspeople.jpeg">
+    </v-img>
 
-      <br>
-In my free time, I love playing chess. It's a great way to challenge my mind and improve my critical thinking skills. I also enjoy exploring new technologies and learning new skills to stay up-to-date with the latest trends in the industry.
+     <br> <br>  <span><font-awesome-icon icon="fa-solid fa-chess-heart"  /></span>
+     Thank you for visiting my portfolio site. Feel free to take a look at my projects and contact me if you have any questions or collaboration opportunities."
+     <v-img class="mt-4" cover
+      src="https://cdn.pixabay.com/animation/2022/07/28/11/20/11-20-04-359_512.gif">
+    </v-img>
+    </div>
+    <div class="text-slate-100 dark:text-slate-900  text-4xl font-bold text-center mb-4 mt-14">
+      Contact <span class="text-red-500 font-bold">Me</span> For <span class="text-red-500 font-bold">All</span>
+     projects
+    </div>
 
-My goal is to become a skilled and well-rounded developer who can contribute to the growth of the tech industry. With my dedication, creativity, and attention to detail, I'm confident that I can bring value to any team.
-
-Thank you for visiting my portfolio site. Feel free to take a look at my projects and contact me if you have any questions or collaboration opportunities."
-
-
-
-
-
-
-
-   
+<BottomMediaIconstVue/>
 
 </template>
 

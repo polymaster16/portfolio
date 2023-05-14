@@ -36,14 +36,14 @@ function tog (){
     >
     <v-btn icon @click="openMenu" size="large">
     <font-awesome-icon  icon="fa-solid fa-bars"
-     class="font-bold text-slate-50 dark:text-slate-900 text-4xl ml-6 lg:ml-1  mr-9 bigM" /> 
+     class="font-bold text-slate-50 text-4xl ml-6 lg:ml-1  mr-9 bigM" /> 
     </v-btn>   
-      <div class="text-4xl font-bold text-slate-50 dark:text-slate-900 "></div>
+      <div class="text-4xl font-bold text-slate-50 "></div>
 
       <v-spacer></v-spacer>
 
       <v-btn size="large" @click="tog" icon>
-        <font-awesome-icon class="text-3xl text-slate-50 dark:text-slate-900 "
+        <font-awesome-icon class="text-3xl text-slate-50 "
          icon="fa-solid fa-circle-half-stroke" />      </v-btn>
     </v-toolbar>
   </div>

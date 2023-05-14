@@ -31,7 +31,7 @@ watch(darkMode, (newDarkMode) => {
    //console.log("dmupdaded")
    if(darkMode.value === true)
    {
-    dmcl.value = "shade2"
+    dmcl.value = "shade1"
    }
    else{
     dmcl.value = "shade1"

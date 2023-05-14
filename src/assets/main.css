@@ -23,7 +23,7 @@
 }
 
 .heroText{
-@apply flex flex-col justify-center text-3xl lg:text-6xl text-slate-50 dark:text-slate-950 font-bold text-center lg:text-left 
+@apply flex flex-col justify-center text-3xl lg:text-6xl text-slate-50 font-bold text-center lg:text-left 
 }
 
 .circularLogo{
